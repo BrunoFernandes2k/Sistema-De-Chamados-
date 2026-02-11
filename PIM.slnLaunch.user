@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

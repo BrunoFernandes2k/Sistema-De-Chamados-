@@ -1,0 +1,190 @@
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Empresa.Web.Ui.dll.config
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Empresa.Web.Ui.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Empresa.Web.Ui.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csc.exe
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csc.exe.config
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csc.rsp
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csi.exe
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csi.exe.config
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csi.rsp
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.AppContext.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Console.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.Compression.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Net.Http.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Net.Sockets.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.ValueTuple.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\vbc.exe
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\vbc.exe.config
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\vbc.rsp
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\VBCSCompiler.exe
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Helpers.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Mvc.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Razor.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Razor.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Razor.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Razor.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Helpers.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Mvc.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.csproj.AssemblyReference.cache
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.csproj.CoreCompileInputs.cache
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa..A120F734.Up2Date
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.Bson.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Buffers.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Memory.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Net.Http.Formatting.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Numerics.Vectors.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.Bson.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Buffers.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Memory.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Net.Http.Formatting.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Numerics.Vectors.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Threading.Tasks.Extensions.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Empresa.Web.Ui.dll.config
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Empresa.Web.Ui.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Empresa.Web.Ui.pdb
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csc.exe
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csc.exe.config
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csc.rsp
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csi.exe
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csi.exe.config
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\csi.rsp
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.Managed.Core.targets
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.AppContext.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Collections.Immutable.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Console.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Globalization.Calendars.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.Compression.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.FileSystem.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Net.Http.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Net.Sockets.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Reflection.Metadata.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.ValueTuple.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.XmlDocument.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.XPath.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\vbc.exe
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\vbc.exe.config
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\vbc.rsp
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\VBCSCompiler.exe
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\roslyn\VBCSCompiler.exe.config
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Microsoft.Web.Infrastructure.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.Bson.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Buffers.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Memory.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Net.Http.Formatting.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Numerics.Vectors.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Threading.Tasks.Extensions.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Helpers.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Mvc.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Razor.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Deployment.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Razor.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.Bson.pdb
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Newtonsoft.Json.Bson.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Buffers.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Memory.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Net.Http.Formatting.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Numerics.Vectors.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Threading.Tasks.Extensions.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Razor.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Deployment.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Webpages.Razor.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Helpers.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\System.Web.Mvc.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Razor.resources.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Webpages.resources.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Helpers.resources.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\bin\pt-br\System.Web.Mvc.resources.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.csproj.AssemblyReference.cache
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.csproj.CoreCompileInputs.cache
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa..A120F734.Up2Date
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.dll
+D:\coisas importante\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Web.UI\Empresa.Web.Ui\obj\Debug\Empresa.Web.Ui.pdb

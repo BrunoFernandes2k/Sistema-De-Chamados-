@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB16F51A-AB87-30EB-6417-16641EEE5D13}|SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI.csproj|d:\\coisas importante\\projeto-tickets-main-20251022t232718z-1-001\\projeto-tickets-main\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB16F51A-AB87-30EB-6417-16641EEE5D13}|SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|d:\\coisas importante\\projeto-tickets-main-20251022t232718z-1-001\\projeto-tickets-main\\empresa.web.ui\\empresa.web.ui\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\dtos\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\dtos\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\controllers\\principalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\controllers\\principalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\home\\administracao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\home\\administracao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\home\\todostickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\home\\todostickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\home\\meustickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\home\\meustickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\empresa.web.ui\\empresa.web.ui\\dtos\\usuariorespostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\dtos\\usuariorespostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\TicketsController.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:12.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiServices.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Services\\ApiServices.cs",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Services\\ApiServices.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Services\\ApiServices.cs",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Services\\ApiServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:13.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrincipalController.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Controllers\\PrincipalController.cs",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Controllers\\PrincipalController.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Controllers\\PrincipalController.cs",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Controllers\\PrincipalController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwGoBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:13.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeusTickets.cshtml",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\MeusTickets.cshtml",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\MeusTickets.cshtml",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\MeusTickets.cshtml",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\MeusTickets.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T21:07:13.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Administracao.cshtml",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2026-01-05T21:07:13.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:13.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketDTO.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\TicketDTO.cs",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\TicketDTO.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\TicketDTO.cs",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\TicketDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:13.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioCadastroDTO.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioCadastroDTO.cs",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioCadastroDTO.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioCadastroDTO.cs",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioCadastroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:13.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodosTickets.cshtml",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\TodosTickets.cshtml",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\TodosTickets.cshtml",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\TodosTickets.cshtml",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\TodosTickets.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T21:07:13.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioRespostaDTO.cs",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioRespostaDTO.cs",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioRespostaDTO.cs",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioRespostaDTO.cs",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\DTOs\\UsuarioRespostaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T21:07:13.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T21:07:13.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\coisas importante\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAUwHwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T21:07:13.762Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\models\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\models\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|c:\\users\\bruni\\downloads\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi\\sistemachamadosapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5DF64B78-72F2-4B97-AA2F-475CAEA8798D}|SistemaChamadosAPI\\SistemaChamadosAPI.csproj|solutionrelative:sistemachamadosapi\\sistemachamadosapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChamadosController.cs",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\ChamadosController.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Controllers\\ChamadosController.cs",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\ChamadosController.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\Controllers\\ChamadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:29:58.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Models\\Login.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\Models\\Login.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:12:23.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Program.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:35:05.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SistemaChamadosAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T19:34:12.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:11:44.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\appsettings.json",
+              "RelativeToolTip": "SistemaChamadosAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T19:25:19.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chamado.cs",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Models\\Chamado.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Models\\Chamado.cs",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Models\\Chamado.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\Models\\Chamado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:23:30.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "SistemaChamadosAPI\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:22:28.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SistemaChamadosAPI.http",
+              "DocumentMoniker": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI.http",
+              "RelativeDocumentMoniker": "SistemaChamadosAPI\\SistemaChamadosAPI.http",
+              "ToolTip": "C:\\Users\\bruni\\Downloads\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI\\SistemaChamadosAPI.http",
+              "RelativeToolTip": "SistemaChamadosAPI\\SistemaChamadosAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-19T19:38:24.897Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

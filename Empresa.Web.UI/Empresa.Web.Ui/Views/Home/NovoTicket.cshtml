@@ -1,0 +1,79 @@
+﻿@model Empresa.Web.Ui.DTOs.TicketNovoDTO
+@{
+    ViewBag.Title = "Novo Ticket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-ticket" style="max-width: 800px; margin: 0 auto;">
+
+    <div class="page-header mb-4">
+        <h2><i class="fas fa-ticket-alt text-primary"></i> Criar Novo Ticket</h2>
+        <p class="text-muted">Preencha os dados abaixo para abrir um chamado</p>
+    </div>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="fas fa-exclamation-triangle"></i> @ViewBag.ErrorMessage
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+        </div>
+    }
+
+    @using (Html.BeginForm("NovoTicket", "Home", FormMethod.Post, new { @class = "needs-validation" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label for="Assunto">
+                <i class="fas fa-heading"></i> Assunto *
+            </label>
+            @Html.TextBoxFor(m => m.Assunto, new
+            {
+                @class = "form-control",
+                placeholder = "Ex: Problema no computador",
+                required = "required",
+                maxlength = "200"
+            })
+        </div>
+
+        <div class="form-group">
+            <label for="Descricao">
+                <i class="fas fa-align-left"></i> Descrição *
+            </label>
+            @Html.TextAreaFor(m => m.Descricao, new
+            {
+                @class = "form-control",
+                rows = "5",
+                placeholder = "Descreva o problema detalhadamente...",
+                required = "required"
+            })
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Prioridade">
+                        <i class="fas fa-exclamation-circle"></i> Prioridade *
+                    </label>
+                    @Html.DropDownListFor(m => m.Prioridade, new List<SelectListItem>
+                    {
+                        new SelectListItem { Text = "Baixa", Value = "Baixa" },
+                        new SelectListItem { Text = "Média", Value = "Média", Selected = true },
+                        new SelectListItem { Text = "Alta", Value = "Alta" }
+                    }, new { @class = "form-control", required = "required" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mt-4">
+            <a href="@Url.Action("MeusTickets", "Home")" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Voltar
+            </a>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Criar Ticket
+            </button>
+        </div>
+    }
+</div>

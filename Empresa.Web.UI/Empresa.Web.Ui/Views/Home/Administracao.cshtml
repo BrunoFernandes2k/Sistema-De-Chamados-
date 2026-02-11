@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Administração";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var stats = ViewBag.Estatisticas;
+
+    int abertos = 0;
+    int emAndamento = 0;
+    int concluidos = 0;
+    int usuariosAtivos = 0;
+
+    if (stats != null)
+    {
+        abertos = Convert.ToInt32(stats.abertos ?? 0);
+        emAndamento = Convert.ToInt32(stats.emAndamento ?? 0);
+        concluidos = Convert.ToInt32(stats.concluidos ?? 0);
+        usuariosAtivos = Convert.ToInt32(stats.usuariosAtivos ?? 0);
+    }
+}
+
+<div class="container-fluid">
+
+    <!-- Painel de Administração -->
+    <div class="card mb-4" style="background-color: #007bff; color: white;">
+        <div class="card-body">
+            <h5><i class="fas fa-cog"></i> Painel de Administração</h5>
+            <p class="mb-0">Gerencie o sistema de tickets</p>
+        </div>
+    </div>
+
+    <!-- Ações Rápidas -->
+    <div class="card mb-4" style="background-color: #17a2b8; color: white;">
+        <div class="card-body">
+            <h5><i class="fas fa-bolt"></i> Ações Rápidas</h5>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <a href="@Url.Action("TodosTickets", "Home")" class="btn btn-primary">
+                <i class="fas fa-list"></i> Ver Todos os Tickets
+            </a>
+            <p class="mt-2 mb-0 text-muted">Visualize e gerencie todos os chamados do sistema</p>
+        </div>
+    </div>
+
+    <!-- Estatísticas do Sistema -->
+    <div class="card" style="background-color: #6c757d; color: white;">
+        <div class="card-body">
+            <h5><i class="fas fa-chart-bar"></i> Estatísticas do Sistema</h5>
+        </div>
+    </div>
+
+    <div class="row text-center mt-3">
+
+        <div class="col-md-3">
+            <div class="card border-primary mb-3">
+                <div class="card-body">
+                    <i class="fas fa-ticket-alt fa-3x text-primary mb-3"></i>
+                    <h2>@abertos</h2>
+                    <p class="card-text">Tickets Abertos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card border-warning mb-3">
+                <div class="card-body">
+                    <i class="fas fa-spinner fa-3x text-warning mb-3"></i>
+                    <h2>@emAndamento</h2>
+                    <p class="card-text">Em Andamento</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card border-success mb-3">
+                <div class="card-body">
+                    <i class="fas fa-check-circle fa-3x text-success mb-3"></i>
+                    <h2>@concluidos</h2>
+                    <p class="card-text">Concluídos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card border-info mb-3">
+                <div class="card-body">
+                    <i class="fas fa-users fa-3x text-info mb-3"></i>
+                    <h2>@usuariosAtivos</h2>
+                    <p class="card-text">Usuários Ativos</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

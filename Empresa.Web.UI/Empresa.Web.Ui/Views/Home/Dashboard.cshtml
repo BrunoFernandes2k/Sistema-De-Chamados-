@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var stats = ViewBag.Estatisticas;
+
+    int abertos = 0;
+    int emAndamento = 0;
+    int concluidos = 0;
+    int total = 0;
+
+    if (stats != null)
+    {
+        abertos = Convert.ToInt32(stats.abertos ?? 0);
+        emAndamento = Convert.ToInt32(stats.emAndamento ?? 0);
+        concluidos = Convert.ToInt32(stats.concluidos ?? 0);
+        total = Convert.ToInt32(stats.total ?? 0);
+    }
+}
+
+<div class="container">
+    <div class="alert alert-info">
+        <h4>Bem-vindo ao Dashboard!</h4>
+        <p>Aqui você verá um resumo dos seus tickets abertos.</p>
+    </div>
+
+    <!-- Estatísticas -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Tickets Abertos</h5>
+                    <h2>@abertos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Em Andamento</h5>
+                    <h2>@emAndamento</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Concluídos</h5>
+                    <h2>@concluidos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total</h5>
+                    <h2>@total</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

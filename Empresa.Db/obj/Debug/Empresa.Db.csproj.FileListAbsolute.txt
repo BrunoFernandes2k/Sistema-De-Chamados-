@@ -1,0 +1,18 @@
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Db.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Db.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Models.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Models.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.csproj.AssemblyReference.cache
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.csproj.CoreCompileInputs.cache
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.csproj.Up2Date
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main (3)\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Db.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Db.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Models.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\bin\Debug\Empresa.Models.pdb
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.csproj.AssemblyReference.cache
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.csproj.CoreCompileInputs.cache
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.csproj.Up2Date
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.dll
+C:\Users\bruni\Downloads\Projeto-Tickets-main-20251022T232718Z-1-001\Projeto-Tickets-main\Empresa.Db\obj\Debug\Empresa.Db.pdb

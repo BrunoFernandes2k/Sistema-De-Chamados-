@@ -1,0 +1,405 @@
+﻿@using Empresa.Web.Ui.DTOs
+@model IEnumerable<TicketListDTO>
+
+@{
+    ViewBag.Title = "Todos os Tickets";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <h2>Todos os Tickets</h2>
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a href="@Url.Action("Dashboard", "Home")" class="btn btn-secondary">
+            <i class="fas fa-home"></i> Dashboard
+        </a>
+        <button onclick="location.reload()" class="btn btn-info">
+            <i class="fas fa-sync-alt"></i> Atualizar
+        </button>
+    </div>
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h5><i class="fas fa-list"></i> Lista de Todos os Tickets</h5>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Assunto</th>
+                            <th>Usuário</th>
+                            <th>Status</th>
+                            <th>Prioridade</th>
+                            <th>Data Abertura</th>
+                            <th>Data Fechamento</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var ticket in Model)
+                            {
+                                <tr id="ticket-@ticket.Id">
+                                    <td><strong>#@ticket.Id</strong></td>
+                                    <td>
+                                        <a href="javascript:void(0)" onclick="verDetalhes(@ticket.Id)" class="text-primary">
+                                            <i class="fas fa-file-alt"></i>
+                                            @ticket.Assunto
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-user text-primary"></i> @ticket.NomeUsuario
+                                    </td>
+                                    <td>
+                                        @if (ticket.Status == "Aberto")
+                                        {
+                                            <span class="badge badge-success">Aberto</span>
+                                        }
+                                        else if (ticket.Status == "Em Andamento")
+                                        {
+                                            <span class="badge badge-warning">Em Andamento</span>
+                                        }
+                                        else if (ticket.Status == "Concluido")
+                                        {
+                                            <span class="badge badge-secondary">Concluído</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (ticket.Prioridade == "Baixa")
+                                        {
+                                            <span class="badge badge-info">Baixa</span>
+                                        }
+                                        else if (ticket.Prioridade == "Media")
+                                        {
+                                            <span class="badge badge-warning">Média</span>
+                                        }
+                                        else if (ticket.Prioridade == "Alta")
+                                        {
+                                            <span class="badge badge-danger">Alta</span>
+                                        }
+                                    </td>
+                                    <td>@ticket.DataAbertura.ToString("dd/MM/yyyy HH:mm")</td>
+                                    <td>
+                                        @if (ticket.DataFechamento.HasValue)
+                                        {
+                                            <span class="text-success">
+                                                <i class="fas fa-check-circle"></i>
+                                                @ticket.DataFechamento.Value.ToString("dd/MM/yyyy HH:mm")
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">
+                                                <i class="fas fa-clock"></i> Em andamento
+                                            </span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <button onclick="verDetalhes(@ticket.Id)" class="btn btn-sm btn-info" title="Ver Detalhes">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button onclick="alterarStatus(@ticket.Id, '@ticket.Status')" class="btn btn-sm btn-warning" title="Alterar Status">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button onclick="deletarTicket(@ticket.Id)" class="btn btn-sm btn-danger" title="Deletar">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="8" class="text-center">Nenhum ticket encontrado.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Detalhes do Ticket -->
+<div class="modal fade" id="modalDetalhes" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-file-alt"></i> Detalhes do Ticket
+                </h5>
+                <button type="button" class="close text-white" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>ID:</strong> <span id="detalhe-id"></span></p>
+                        <p><strong>Usuário:</strong> <span id="detalhe-usuario"></span></p>
+                        <p><strong>Status:</strong> <span id="detalhe-status"></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Prioridade:</strong> <span id="detalhe-prioridade"></span></p>
+                        <p><strong>Data Abertura:</strong> <span id="detalhe-abertura"></span></p>
+                        <p><strong>Data Fechamento:</strong> <span id="detalhe-fechamento"></span></p>
+                    </div>
+                </div>
+                <hr>
+                <h6><strong>Assunto:</strong></h6>
+                <p id="detalhe-assunto" class="alert alert-secondary"></p>
+
+                <h6><strong>Descrição:</strong></h6>
+                <div id="detalhe-descricao" class="alert alert-light" style="white-space: pre-wrap; min-height: 100px;"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-warning" onclick="alterarStatusModal()">
+                    <i class="fas fa-edit"></i> Alterar Status
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Alteração de Status -->
+<div class="modal fade" id="modalStatus" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">Alterar Status do Ticket</h5>
+                <button type="button" class="close text-white" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="ticketId" />
+                <div class="form-group">
+                    <label>Novo Status:</label>
+                    <select id="novoStatus" class="form-control">
+                        <option value="Aberto">Aberto</option>
+                        <option value="Em Andamento">Em Andamento</option>
+                        <option value="Concluido">Concluído</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="salvarStatus()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Variável global para armazenar o ticket atual
+    var ticketAtual = null;
+
+    // Função para ver detalhes do ticket
+    function verDetalhes(id) {
+        console.log('🔍 Buscando detalhes do ticket:', id);
+
+        $.ajax({
+            url: '@Url.Action("GetTicketDetalhes", "Home")',
+            type: 'GET',
+            data: { id: id },
+            success: function(response) {
+                // ✅ DEBUG - VER TUDO QUE VEM
+                console.log('📦 RESPONSE COMPLETO:', JSON.stringify(response, null, 2));
+
+                // A resposta pode estar envolvida em um objeto ou vir direto
+                var ticket = response.ticket || response;
+
+                console.log('🎫 Ticket processado:', ticket);
+
+                // Testa todas as variações
+                console.log('🔍 response.id:', response.id);
+                console.log('🔍 response.Id:', response.Id);
+                console.log('🔍 response.assunto:', response.assunto);
+                console.log('🔍 response.Assunto:', response.Assunto);
+
+                // Armazena o ticket atual
+                ticketAtual = ticket;
+
+                // Preenche o modal - TESTE TODAS AS VARIAÇÕES DE NOME
+                var ticketId = ticket.id || ticket.Id;
+                $('#detalhe-id').text('#' + (ticketId || '?'));
+
+                // Nome do usuário
+                var nomeUsuario = ticket.nomeUsuario || ticket.NomeUsuario || ticket.nome || ticket.Nome || 'Desconhecido';
+                $('#detalhe-usuario').html('<i class="fas fa-user text-primary"></i> ' + nomeUsuario);
+
+                // Status
+                var status = ticket.status || ticket.Status || 'Desconhecido';
+                var statusHtml = '';
+                if (status == 'Aberto') {
+                    statusHtml = '<span class="badge badge-success">Aberto</span>';
+                } else if (status == 'Em Andamento') {
+                    statusHtml = '<span class="badge badge-warning">Em Andamento</span>';
+                } else if (status == 'Concluido' || status == 'Concluído') {
+                    statusHtml = '<span class="badge badge-secondary">Concluído</span>';
+                } else {
+                    statusHtml = '<span class="badge badge-secondary">' + status + '</span>';
+                }
+                $('#detalhe-status').html(statusHtml);
+
+                // Prioridade
+                var prioridade = ticket.prioridade || ticket.Prioridade || 'Não especificada';
+                var prioridadeHtml = '';
+                if (prioridade == 'Baixa') {
+                    prioridadeHtml = '<span class="badge badge-info">Baixa</span>';
+                } else if (prioridade == 'Media' || prioridade == 'Média') {
+                    prioridadeHtml = '<span class="badge badge-warning">Média</span>';
+                } else if (prioridade == 'Alta') {
+                    prioridadeHtml = '<span class="badge badge-danger">Alta</span>';
+                } else {
+                    prioridadeHtml = '<span class="badge badge-secondary">' + prioridade + '</span>';
+                }
+                $('#detalhe-prioridade').html(prioridadeHtml);
+
+                // Datas
+                var dataAbertura = ticket.dataAbertura || ticket.DataAbertura;
+                $('#detalhe-abertura').text(dataAbertura ? formatarData(dataAbertura) : '-');
+
+                var dataFechamento = ticket.dataFechamento || ticket.DataFechamento;
+                if (dataFechamento) {
+                    $('#detalhe-fechamento').html('<span class="text-success"><i class="fas fa-check-circle"></i> ' + formatarData(dataFechamento) + '</span>');
+                } else {
+                    $('#detalhe-fechamento').html('<span class="text-muted"><i class="fas fa-clock"></i> Em andamento</span>');
+                }
+
+                // Assunto e Descrição
+                var assunto = ticket.assunto || ticket.Assunto || 'Sem assunto';
+                $('#detalhe-assunto').text(assunto);
+
+                var descricao = ticket.descricao || ticket.Descricao || 'Sem descrição';
+                $('#detalhe-descricao').text(descricao);
+
+                // Abre o modal
+                $('#modalDetalhes').modal('show');
+            },
+            error: function(xhr, status, error) {
+                console.error('❌ Erro ao buscar detalhes:', error);
+                console.error('📋 Status:', status);
+                console.error('📋 Resposta completa:', xhr.responseText);
+                alert('Erro ao buscar detalhes do ticket: ' + error);
+            }
+        });
+    } 
+    // Função para formatar data
+    function formatarData(data) {
+        if (!data) return '-';
+
+        var d;
+
+        // Verifica se é o formato /Date(timestamp)/
+        if (typeof data === 'string' && data.indexOf('/Date(') === 0) {
+            var timestamp = parseInt(data.match(/\d+/)[0]);
+            d = new Date(timestamp);
+        } else {
+            d = new Date(data);
+        }
+
+        // Verifica se a data é válida
+        if (isNaN(d.getTime())) {
+            return '-';
+        }
+
+        var dia = ('0' + d.getDate()).slice(-2);
+        var mes = ('0' + (d.getMonth() + 1)).slice(-2);
+        var ano = d.getFullYear();
+        var hora = ('0' + d.getHours()).slice(-2);
+        var min = ('0' + d.getMinutes()).slice(-2);
+        return dia + '/' + mes + '/' + ano + ' ' + hora + ':' + min;
+    }
+
+    // Função para alterar status a partir do modal de detalhes
+    function alterarStatusModal() {
+        if (ticketAtual) {
+            var id = ticketAtual.id || ticketAtual.Id;
+            var status = ticketAtual.status || ticketAtual.Status;
+            $('#modalDetalhes').modal('hide');
+            setTimeout(function() {
+                alterarStatus(id, status);
+            }, 300);
+        }
+    }
+
+    // Função para abrir modal de alteração de status
+    function alterarStatus(id, statusAtual) {
+        $('#ticketId').val(id);
+        $('#novoStatus').val(statusAtual);
+        $('#modalStatus').modal('show');
+    }
+
+    // Função para salvar o novo status
+    function salvarStatus() {
+        var id = $('#ticketId').val();
+        var status = $('#novoStatus').val();
+
+        $.ajax({
+            url: '@Url.Action("AtualizarStatusTicket", "Home")',
+            type: 'POST',
+            data: { id: parseInt(id), status: status },
+            success: function(response) {
+                if (response.success) {
+                    alert(response.message);
+                    $('#modalStatus').modal('hide');
+                    location.reload();
+                } else {
+                    alert('Erro: ' + response.message);
+                }
+            },
+            error: function() {
+                alert('Erro ao atualizar status');
+            }
+        });
+    }
+
+    // Função para deletar ticket
+    function deletarTicket(id) {
+        if (confirm('Tem certeza que deseja deletar este ticket?')) {
+            $.ajax({
+                url: '@Url.Action("DeletarTicket", "Home")',
+                type: 'POST',
+                data: { id: id },
+                success: function(response) {
+                    if (response.success) {
+                        alert(response.message);
+                        $('#ticket-' + id).fadeOut();
+                    } else {
+                        alert('Erro: ' + response.message);
+                    }
+                },
+                error: function() {
+                    alert('Erro ao deletar ticket.');
+                }
+            });
+        }
+    }
+</script>
+
+<style>
+    .table td a {
+        text-decoration: none;
+    }
+
+        .table td a:hover {
+            text-decoration: underline;
+        }
+
+    .modal-body .alert {
+        margin-bottom: 10px;
+    }
+
+    .btn-sm {
+        margin-right: 3px;
+    }
+</style>
