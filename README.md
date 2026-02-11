@@ -1,0 +1,1 @@
+um sistema de chamados utilizando C#, ASP.NET e o modelo MVC. O propósito do projeto é desenvolver um sistema de suporte técnico, no qual o usuário pode criar chamados para solicitar atendimento. Além disso, o sistema conta com a função de administrador, responsável por dar baixa nos chamados, atualizar o status e gerenciar outras funcionalidades.
