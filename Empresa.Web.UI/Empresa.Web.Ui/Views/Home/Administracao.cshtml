@@ -16,7 +16,7 @@
         try { abertos = Convert.ToInt32(stats.abertos); } catch { }
         try { emAndamento = Convert.ToInt32(stats.emAndamento); } catch { }
         try { concluidos = Convert.ToInt32(stats.concluidos); } catch { }
-        try { usuarios = Convert.ToInt32(stats.usuariosAtivos); } catch { } // <-- Corrigido aqui!
+        try { usuarios = Convert.ToInt32(stats.usuariosAtivos); } catch { }
     }
 }
 
@@ -36,6 +36,12 @@
         color: white;
         padding: 30px;
         border-radius: 15px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
         .admin-header i {
             font-size: 40px;
             color: #818cf8;

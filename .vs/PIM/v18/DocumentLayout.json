@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             },
             {
               "$type": "Document",
@@ -40,7 +36,7 @@
               "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
               "ToolTip": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
               "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAqwM0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-21T01:29:35.693Z",
               "EditorCaption": ""
