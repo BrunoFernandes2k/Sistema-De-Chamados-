@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|c:\\users\\bruno\\desktop\\projeto-tickets-main-20251022t232718z-1-001\\projeto-tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|c:\\users\\bruno\\desktop\\projeto-tickets-main-20251022t232718z-1-001\\projeto-tickets-main\\empresa.web.ui\\empresa.web.ui\\views\\home\\administracao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4B0A4549-8A15-4219-B9D4-E22DDC7D6277}|Empresa.Web.UI\\Empresa.Web.Ui\\Empresa.Web.Ui.csproj|solutionrelative:empresa.web.ui\\empresa.web.ui\\views\\home\\administracao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\shared\\_Layout.cshtml",
+              "RelativeToolTip": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAwOUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T03:09:37.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Administracao.cshtml",
               "DocumentMoniker": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
               "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\Administracao.cshtml",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TodosTickets.cshtml",
               "DocumentMoniker": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\TodosTickets.cshtml",
               "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\TodosTickets.cshtml",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MeusTickets.cshtml",
               "DocumentMoniker": "C:\\Users\\bruno\\Desktop\\Projeto-Tickets-main-20251022T232718Z-1-001\\Projeto-Tickets-main\\Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\MeusTickets.cshtml",
               "RelativeDocumentMoniker": "Empresa.Web.UI\\Empresa.Web.Ui\\Views\\Home\\MeusTickets.cshtml",
