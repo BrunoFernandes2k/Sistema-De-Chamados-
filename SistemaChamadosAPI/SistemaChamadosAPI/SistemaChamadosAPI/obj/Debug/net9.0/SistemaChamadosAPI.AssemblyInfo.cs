@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaChamadosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2faef8fddffcfaf2d395bf7200677e207e1cb5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaChamadosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaChamadosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

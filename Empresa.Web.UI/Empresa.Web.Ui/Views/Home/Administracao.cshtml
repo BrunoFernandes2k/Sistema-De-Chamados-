@@ -1,97 +1,200 @@
 ﻿@{
     ViewBag.Title = "Administração";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    // Pegando as estatísticas dinâmicas que vêm da API
     var stats = ViewBag.Estatisticas;
 
     int abertos = 0;
     int emAndamento = 0;
     int concluidos = 0;
-    int usuariosAtivos = 0;
+    int usuarios = 0;
 
     if (stats != null)
     {
-        abertos = Convert.ToInt32(stats.abertos ?? 0);
-        emAndamento = Convert.ToInt32(stats.emAndamento ?? 0);
-        concluidos = Convert.ToInt32(stats.concluidos ?? 0);
-        usuariosAtivos = Convert.ToInt32(stats.usuariosAtivos ?? 0);
+        // Usando os nomes EXATOS que descobrimos na API
+        try { abertos = Convert.ToInt32(stats.abertos); } catch { }
+        try { emAndamento = Convert.ToInt32(stats.emAndamento); } catch { }
+        try { concluidos = Convert.ToInt32(stats.concluidos); } catch { }
+        try { usuarios = Convert.ToInt32(stats.usuariosAtivos); } catch { } // <-- Corrigido aqui!
     }
 }
 
+<style>
+    /* Container Principal */
+    .admin-wrapper {
+        background-color: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+    }
+
+    /* Header do Painel */
+    .admin-header {
+        background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 15px;
+        .admin-header i {
+            font-size: 40px;
+            color: #818cf8;
+        }
+
+    /* --- BOTÕES MODERNOS --- */
+    .btn-moderno {
+        border: none;
+        border-radius: 12px;
+        padding: 15px 30px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        text-decoration: none !important;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-moderno-primary {
+        background-color: #6366f1;
+        color: white !important;
+    }
+
+        .btn-moderno-primary:hover {
+            background-color: #4f46e5;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4);
+        }
+
+    /* --- CARDS DE ESTATÍSTICAS --- */
+    .stat-card-admin {
+        border: none;
+        border-radius: 15px;
+        padding: 25px;
+        color: white;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        min-height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .stat-card-admin:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+        }
+
+        .stat-card-admin i {
+            position: absolute;
+            right: -10px;
+            bottom: -10px;
+            font-size: 80px;
+            opacity: 0.2;
+        }
+
+        .stat-card-admin .stat-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1;
+        }
+
+        .stat-card-admin .stat-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.9;
+        }
+
+    /* Gradientes */
+    .grad-abertos {
+        background: linear-gradient(135deg, #f87171 0%, #dc2626 100%);
+    }
+
+    .grad-andamento {
+        background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+    }
+
+    .grad-concluidos {
+        background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+    }
+
+    .grad-usuarios {
+        background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+    }
+
+    .section-title {
+        color: #1e1b4b;
+        font-weight: 800;
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+</style>
+
 <div class="container-fluid">
+    <div class="admin-wrapper">
 
-    <!-- Painel de Administração -->
-    <div class="card mb-4" style="background-color: #007bff; color: white;">
-        <div class="card-body">
-            <h5><i class="fas fa-cog"></i> Painel de Administração</h5>
-            <p class="mb-0">Gerencie o sistema de tickets</p>
-        </div>
-    </div>
-
-    <!-- Ações Rápidas -->
-    <div class="card mb-4" style="background-color: #17a2b8; color: white;">
-        <div class="card-body">
-            <h5><i class="fas fa-bolt"></i> Ações Rápidas</h5>
-        </div>
-    </div>
-
-    <div class="card mb-4">
-        <div class="card-body">
-            <a href="@Url.Action("TodosTickets", "Home")" class="btn btn-primary">
-                <i class="fas fa-list"></i> Ver Todos os Tickets
-            </a>
-            <p class="mt-2 mb-0 text-muted">Visualize e gerencie todos os chamados do sistema</p>
-        </div>
-    </div>
-
-    <!-- Estatísticas do Sistema -->
-    <div class="card" style="background-color: #6c757d; color: white;">
-        <div class="card-body">
-            <h5><i class="fas fa-chart-bar"></i> Estatísticas do Sistema</h5>
-        </div>
-    </div>
-
-    <div class="row text-center mt-3">
-
-        <div class="col-md-3">
-            <div class="card border-primary mb-3">
-                <div class="card-body">
-                    <i class="fas fa-ticket-alt fa-3x text-primary mb-3"></i>
-                    <h2>@abertos</h2>
-                    <p class="card-text">Tickets Abertos</p>
-                </div>
+        <div class="admin-header">
+            <div class="icon-box">
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <div>
+                <h2 class="mb-1 font-weight-bold">Painel de Administração</h2>
+                <p class="mb-0 opacity-75">Gerencie a saúde do sistema e todos os chamados ativos.</p>
             </div>
         </div>
 
-        <div class="col-md-3">
-            <div class="card border-warning mb-3">
-                <div class="card-body">
-                    <i class="fas fa-spinner fa-3x text-warning mb-3"></i>
-                    <h2>@emAndamento</h2>
-                    <p class="card-text">Em Andamento</p>
+        <div class="mb-5">
+            <h5 class="section-title"><i class="fas fa-bolt text-warning"></i> Ações Rápidas</h5>
+            <div class="bg-light p-4 rounded-lg d-flex align-items-center justify-content-between">
+                <div>
+                    <h6 class="font-weight-bold mb-1">Central de Tickets</h6>
+                    <p class="text-muted mb-0">Visualize, edite e gerencie todos os chamados do sistema em uma única tela.</p>
                 </div>
+                <a href="@Url.Action("TodosTickets", "Home")" class="btn-moderno btn-moderno-primary">
+                    <i class="fas fa-clipboard-list"></i> Ver todos os Tickets
+                </a>
             </div>
         </div>
 
-        <div class="col-md-3">
-            <div class="card border-success mb-3">
-                <div class="card-body">
-                    <i class="fas fa-check-circle fa-3x text-success mb-3"></i>
-                    <h2>@concluidos</h2>
-                    <p class="card-text">Concluídos</p>
+        <div>
+            <h5 class="section-title"><i class="fas fa-chart-pie text-primary"></i> Estatísticas do Sistema</h5>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card-admin grad-abertos">
+                        <i class="fas fa-envelope-open"></i>
+                        <span class="stat-label">Tickets Abertos</span>
+                        <span class="stat-value">@abertos</span>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card border-info mb-3">
-                <div class="card-body">
-                    <i class="fas fa-users fa-3x text-info mb-3"></i>
-                    <h2>@usuariosAtivos</h2>
-                    <p class="card-text">Usuários Ativos</p>
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card-admin grad-andamento">
+                        <i class="fas fa-spinner"></i>
+                        <span class="stat-label">Em Andamento</span>
+                        <span class="stat-value">@emAndamento</span>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card-admin grad-concluidos">
+                        <i class="fas fa-check-double"></i>
+                        <span class="stat-label">Concluídos</span>
+                        <span class="stat-value">@concluidos</span>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card-admin grad-usuarios">
+                        <i class="fas fa-users"></i>
+                        <span class="stat-label">Usuários Ativos</span>
+                        <span class="stat-value">@usuarios</span>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
-
 </div>

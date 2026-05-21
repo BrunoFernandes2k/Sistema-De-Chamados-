@@ -1,5 +1,4 @@
-﻿@using System.Web.Mvc.Html
-@{
+﻿@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -7,14 +6,15 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login - Sistema de Tickets</title>
+    <title>Login - TechFlow Solutions</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <style>
         body {
-            background-color: #2b6cb0;
+            /* 🔧 MUDANÇA: Fundo na mesma cor roxa/azul moderna */
+            background-color: #6366f1;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,19 +27,29 @@
             background-color: white;
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Aumentamos a sombra para destacar bem do fundo colorido */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             width: 100%;
         }
 
         .ticket-icon {
             color: white;
-            background-color: #3b82f6;
-            border-radius: 5px;
-            padding: 10px;
-            display: inline-block;
-            margin-bottom: 20px;
-            font-size: 24px;
+            /* Fundo com gradiente moderno (roxo claro para roxo escuro) */
+            background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+            /* Transforma o quadrado num círculo perfeito */
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 32px; /* Deixa o ícone do ticket maior */
+            /* Sombra roxa suave para dar efeito de profundidade (3D) */
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4);
+            /* Borda clara ao redor do círculo para dar contraste */
+            border: 4px solid #e0e7ff;
         }
 
         .demo-info {
@@ -59,6 +69,49 @@
             max-width: 400px;
             margin: 0 auto;
         }
+
+        /* --- ESTILOS DOS BOTÕES MODERNOS --- */
+        .btn-moderno {
+            border: none;
+            border-radius: 8px; /* Bordas arredondadas */
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease; /* Animação suave */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-decoration: none !important;
+        }
+
+        /* 🔧 MUDANÇA: Botão Entrar agora é branco com texto roxo para contrastar */
+        .btn-moderno-primary {
+            background-color: white;
+            color: #6366f1 !important;
+            border: 2px solid white;
+        }
+
+            .btn-moderno-primary:hover {
+                background-color: #f1f5f9; /* Fica cinza clarinho no hover */
+                transform: translateY(-2px); /* Efeito de pular pra cima */
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+                color: #4f46e5 !important;
+            }
+
+        /* Botão Criar Conta (Cinza clarinho) */
+        .btn-moderno-secondary {
+            background-color: #f1f5f9;
+            color: #475569 !important;
+        }
+
+            .btn-moderno-secondary:hover {
+                background-color: #e2e8f0;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+                color: #334155 !important;
+            }
     </style>
 </head>
 <body>
@@ -89,31 +142,30 @@
             <i class="fas fa-ticket-alt"></i>
         </span>
 
-        <h2 class="mb-4">Sistema de Tickets</h2>
+        <h2 class="mb-4" style="color: #1e293b;">TechFlow Solutions</h2>
 
         @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
         {
             @Html.AntiForgeryToken()
 
             <div class="form-group text-left">
-                <label for="NomeUsuario">Usuário:</label>
-                @* 🔧 CORREÇÃO: Mudou de name="Usuario" para name="NomeUsuario" *@
-                <input type="text" class="form-control" id="NomeUsuario" name="NomeUsuario" required>
+                <label for="NomeUsuario" style="font-weight: 600; color: #4a5568;">Usuário:</label>
+                <input type="text" class="form-control" id="NomeUsuario" name="NomeUsuario" style="border-radius: 8px;" required>
             </div>
 
             <div class="form-group text-left">
-                <label for="Senha">Senha:</label>
-                <input type="password" class="form-control" id="Senha" name="Senha" required>
+                <label for="Senha" style="font-weight: 600; color: #4a5568;">Senha:</label>
+                <input type="password" class="form-control" id="Senha" name="Senha" style="border-radius: 8px;" required>
             </div>
 
             <div class="form-row mt-4">
                 <div class="col">
-                    <a href="@Url.Action("Register", "Home")" class="btn btn-secondary btn-block">
+                    <a href="@Url.Action("Register", "Home")" class="btn-moderno btn-moderno-secondary btn-block">
                         <i class="fas fa-user-plus"></i> Criar Conta
                     </a>
                 </div>
                 <div class="col">
-                    <button type="submit" class="btn btn-primary btn-block">
+                    <button type="submit" class="btn-moderno btn-moderno-primary btn-block">
                         <i class="fas fa-arrow-right"></i> Entrar
                     </button>
                 </div>

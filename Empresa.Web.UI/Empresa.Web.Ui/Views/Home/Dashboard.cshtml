@@ -17,41 +17,115 @@
     }
 }
 
-<div class="container">
-    <div class="alert alert-info">
-        <h4>Bem-vindo ao Dashboard!</h4>
-        <p>Aqui você verá um resumo dos seus tickets abertos.</p>
+<style>
+    /* Força o fundo da página para a cor roxa/azul do nosso tema */
+    body {
+        background-color: #6366f1 !important;
+    }
+
+    /* O painel branco principal que segura o conteúdo */
+    .container-dashboard {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        margin-top: 40px; /* Dá um respiro em relação ao topo da tela */
+        margin-bottom: 40px;
+    }
+
+    /* Mensagem de boas-vindas modernizada */
+    .alert-moderno {
+        background-color: #f8fafc;
+        border-left: 5px solid #6366f1;
+        border-radius: 8px;
+        color: #334155;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    /* --- ESTILO DOS WIDGETS DE ESTATÍSTICAS --- */
+    .modern-stat-card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: white;
+    }
+
+        .modern-stat-card:hover {
+            transform: translateY(-5px); /* Faz o card dar um "pulinho" pra cima */
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Gradientes modernos para cada tipo de card */
+    .card-abertos {
+        background: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+    }
+    /* Vermelho suave */
+    .card-andamento {
+        background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    }
+    /* Amarelo/Laranja */
+    .card-concluidos {
+        background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+    }
+    /* Verde esmeralda */
+    .card-total {
+        background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+    }
+    /* Roxo do tema */
+
+    .modern-stat-card h5 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        opacity: 0.9;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .modern-stat-card h2 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+</style>
+
+<div class="container container-dashboard">
+    <div class="alert alert-moderno mb-4">
+        <h4 class="font-weight-bold" style="color: #4338ca;">Bem-vindo ao Dashboard!</h4>
+        <p class="mb-0">Aqui você verá um resumo dos seus tickets no sistema.</p>
     </div>
 
-    <!-- Estatísticas -->
     <div class="row">
         <div class="col-md-3">
-            <div class="card text-white bg-primary mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Tickets Abertos</h5>
+            <div class="card modern-stat-card card-abertos mb-3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Abertos</h5>
                     <h2>@abertos</h2>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card text-white bg-warning mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Em Andamento</h5>
+            <div class="card modern-stat-card card-andamento mb-3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Andamento</h5>
                     <h2>@emAndamento</h2>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card text-white bg-success mb-3">
-                <div class="card-body">
+            <div class="card modern-stat-card card-concluidos mb-3">
+                <div class="card-body text-center">
                     <h5 class="card-title">Concluídos</h5>
                     <h2>@concluidos</h2>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card text-white bg-info mb-3">
-                <div class="card-body">
+            <div class="card modern-stat-card card-total mb-3">
+                <div class="card-body text-center">
                     <h5 class="card-title">Total</h5>
                     <h2>@total</h2>
                 </div>

@@ -1,6 +1,5 @@
 ﻿@using System.Web.Mvc.Html
 @{
-    // CRUCIAL: Impede o uso de qualquer layout mestre
     Layout = null;
 }
 <!DOCTYPE html>
@@ -8,20 +7,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Criar Nova Conta</title>
+    <title>Criar Nova Conta - TechFlow Solutions</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <style>
         body {
-            /* Fundo azul escuro e centralização */
-            background-color: #2b6cb0;
+            /* 🔧 MUDANÇA: Fundo na mesma cor roxa/azul moderna do botão principal */
+            background-color: #6366f1;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            padding: 20px; /* Padding para telas pequenas */
         }
 
         .register-card {
@@ -29,11 +29,12 @@
             background-color: white;
             padding: 25px 40px;
             border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            max-width: 450px; /* Mais largo para caber os campos */
+            /* Aumentamos um pouco a sombra para dar mais destaque contra o fundo colorido */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            max-width: 450px;
             width: 100%;
         }
-        /* Estilos adicionais para simular o visual de modal */
+
         .modal-header {
             border-bottom: 0;
             padding: 0 0 1rem 0;
@@ -45,6 +46,8 @@
 
         .modal-title {
             font-size: 1.5rem;
+            /* 🔧 MUDANÇA: Título numa cor mais escura para combinar */
+            color: #4338ca;
         }
 
         .modal-footer {
@@ -54,10 +57,52 @@
             justify-content: space-between;
         }
 
-        /* 🎨 Estilo para mensagens de erro */
         .alert {
             margin-bottom: 1rem;
         }
+
+        /* --- ESTILOS DOS BOTÕES MODERNOS --- */
+        .btn-moderno {
+            border: none;
+            border-radius: 8px; /* Bordas arredondadas */
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease; /* Animação suave */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px; /* Espaço entre o ícone e o texto */
+            text-decoration: none !important;
+        }
+
+        /* 🔧 MUDANÇA: Cor do Botão Principal (Criar Conta) agora é branca para contrastar com o fundo */
+        .btn-moderno-primary {
+            background-color: white;
+            color: #6366f1 !important; /* Texto na cor roxa original */
+            border: 2px solid white; /* Borda branca para manter o tamanho ao dar hover */
+        }
+
+            .btn-moderno-primary:hover {
+                background-color: #f1f5f9; /* Fica cinza clarinho no hover */
+                transform: translateY(-2px);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+                color: #4f46e5 !important;
+            }
+
+        /* Cor do Botão Secundário (Cancelar) - Mantido */
+        .btn-moderno-secondary {
+            background-color: #f1f5f9;
+            color: #475569 !important;
+        }
+
+            .btn-moderno-secondary:hover {
+                background-color: #e2e8f0;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+                color: #334155 !important;
+            }
     </style>
 </head>
 <body>
@@ -66,14 +111,13 @@
 
         <div class="modal-header">
             <h5 class="modal-title">
-                <i class="fas fa-user-plus text-primary mr-2"></i> Criar Nova Conta
+                <i class="fas fa-user-plus mr-2"></i> Criar Nova Conta
             </h5>
             <a href="@Url.Action("Login", "Home")" class="close" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </a>
         </div>
 
-        @* Exibe mensagens de erro *@
         @if (ViewBag.ErrorMessage != null)
         {
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -115,7 +159,6 @@
                     <input type="password" class="form-control" id="ConfirmarSenha" name="ConfirmarSenha" required>
                 </div>
 
-                @* 🔧 CORREÇÃO: Agora envia números (1 ou 2) *@
                 <div class="form-group">
                     <label for="TipoUsuario">Tipo de Usuário:</label>
                     <select class="form-control" id="TipoUsuario" name="TipoUsuario" required>
@@ -128,11 +171,11 @@
             </div>
 
             <div class="modal-footer">
-                <a href="@Url.Action("Login", "Home")" class="btn btn-secondary">
+                <a href="@Url.Action("Login", "Home")" class="btn-moderno btn-moderno-secondary">
                     <i class="fas fa-times-circle"></i> Cancelar
                 </a>
 
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn-moderno btn-moderno-primary">
                     <i class="fas fa-user-plus"></i> Criar Conta
                 </button>
             </div>

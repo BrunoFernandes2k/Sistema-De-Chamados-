@@ -4,17 +4,91 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container-ticket" style="max-width: 800px; margin: 0 auto;">
+<style>
+    /* Container Branco do Formulário */
+    .container-moderno {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        margin: 30px auto;
+        max-width: 800px; /* Largura ideal para formulários */
+    }
 
-    <div class="page-header mb-4">
-        <h2><i class="fas fa-ticket-alt text-primary"></i> Criar Novo Ticket</h2>
-        <p class="text-muted">Preencha os dados abaixo para abrir um chamado</p>
+    /* --- ESTILOS DOS BOTÕES MODERNOS --- */
+    .btn-moderno {
+        border: none;
+        border-radius: 8px; /* Bordas arredondadas */
+        padding: 10px 24px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: all 0.3s ease; /* Animação suave */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none !important;
+    }
+
+    /* Botão Principal (Criar Ticket) */
+    .btn-moderno-primary {
+        background-color: #6366f1; /* Roxo/Azul moderno */
+        color: white !important;
+    }
+
+        .btn-moderno-primary:hover {
+            background-color: #4f46e5;
+            transform: translateY(-2px); /* Efeito de pular pra cima */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+            color: white !important;
+        }
+
+    /* Botão Secundário (Voltar) */
+    .btn-moderno-secondary {
+        background-color: #f1f5f9; /* Cinza clarinho */
+        color: #475569 !important;
+    }
+
+        .btn-moderno-secondary:hover {
+            background-color: #e2e8f0;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+            color: #334155 !important;
+        }
+
+    /* Ajustes dos campos para ficarem com visual Premium */
+    .form-control {
+        border-radius: 8px;
+        padding: 10px 15px;
+        border: 1px solid #cbd5e1;
+    }
+
+        .form-control:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25); /* Brilho roxo ao clicar */
+        }
+
+    label {
+        font-weight: 600;
+        color: #475569;
+        margin-bottom: 8px;
+    }
+</style>
+
+<div class="container-moderno">
+
+    <div class="page-header mb-4 border-bottom pb-3">
+        <h2 style="color: #4338ca; font-weight: bold;">
+            <i class="fas fa-ticket-alt mr-2 text-primary"></i> Criar Novo Ticket
+        </h2>
+        <p class="text-muted mb-0">Preencha os dados abaixo para abrir um chamado</p>
     </div>
 
     @if (ViewBag.ErrorMessage != null)
     {
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <i class="fas fa-exclamation-triangle"></i> @ViewBag.ErrorMessage
+        <div class="alert alert-danger alert-dismissible fade show" role="alert" style="border-radius: 8px;">
+            <i class="fas fa-exclamation-triangle mr-2"></i> @ViewBag.ErrorMessage
             <button type="button" class="close" data-dismiss="alert">
                 <span>&times;</span>
             </button>
@@ -25,9 +99,9 @@
     {
         @Html.AntiForgeryToken()
 
-        <div class="form-group">
+        <div class="form-group mb-4">
             <label for="Assunto">
-                <i class="fas fa-heading"></i> Assunto *
+                <i class="fas fa-heading mr-1"></i> Assunto *
             </label>
             @Html.TextBoxFor(m => m.Assunto, new
             {
@@ -38,9 +112,9 @@
             })
         </div>
 
-        <div class="form-group">
+        <div class="form-group mb-4">
             <label for="Descricao">
-                <i class="fas fa-align-left"></i> Descrição *
+                <i class="fas fa-align-left mr-1"></i> Descrição *
             </label>
             @Html.TextAreaFor(m => m.Descricao, new
             {
@@ -51,14 +125,14 @@
             })
         </div>
 
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="Prioridade">
-                        <i class="fas fa-exclamation-circle"></i> Prioridade *
+                        <i class="fas fa-exclamation-circle mr-1"></i> Prioridade *
                     </label>
                     @Html.DropDownListFor(m => m.Prioridade, new List<SelectListItem>
-                    {
+                        {
                         new SelectListItem { Text = "Baixa", Value = "Baixa" },
                         new SelectListItem { Text = "Média", Value = "Média", Selected = true },
                         new SelectListItem { Text = "Alta", Value = "Alta" }
@@ -67,11 +141,11 @@
             </div>
         </div>
 
-        <div class="form-group mt-4">
-            <a href="@Url.Action("MeusTickets", "Home")" class="btn btn-secondary">
+        <div class="d-flex justify-content-between mt-5 pt-3 border-top">
+            <a href="@Url.Action("MeusTickets", "Home")" class="btn-moderno btn-moderno-secondary">
                 <i class="fas fa-arrow-left"></i> Voltar
             </a>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn-moderno btn-moderno-primary">
                 <i class="fas fa-paper-plane"></i> Criar Ticket
             </button>
         </div>
